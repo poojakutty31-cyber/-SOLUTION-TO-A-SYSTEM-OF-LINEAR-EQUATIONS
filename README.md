@@ -29,27 +29,18 @@ Using the np.linalg.solve(), we can find the solutions.
 End the program
 
 ## Program
-
-#Program to find the solution for the given linear equations.
-
-#Developed by: Sivasakthi S
-
-#RegisterNumber: 212225040418
-
+```
+Program to find the solution for the given linear equations.
+Developed by: Sivasakthi S
+RegisterNumber: 212225040418
 import os
-
 os.environ["OPENBLAS_NUM_THREADS"]="1"
-
 import numpy as np
-
 A = np.array([[1,3],[2,5]])
-
 B = np.array([5,-3])
-
 X = np.linalg.solve(A,B)
-
 print(X)
-
+```
 ## Output:
 
 <img width="1276" height="206" alt="Screenshot 2026-05-14 104305" src="https://github.com/user-attachments/assets/3b66a21c-6120-48f4-ab96-a00431b48f27" />
