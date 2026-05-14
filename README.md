@@ -13,8 +13,7 @@ Prepare the lists from each linear equations and assign in np.array()
 Using the np.linalg.solve(), we can find the solutions.
 ### Step 4: 
 End the program
-## Program:
-"""
+## Program
 
 #Program to find the solution for the given linear equations.
 
@@ -35,8 +34,6 @@ B = np.array([5,-3])
 X = np.linalg.solve(A,B)
 
 print(X)
-
-"""
 ## Output:
 
 <img width="1276" height="206" alt="Screenshot 2026-05-14 104305" src="https://github.com/user-attachments/assets/3b66a21c-6120-48f4-ab96-a00431b48f27" />
